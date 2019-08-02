@@ -33,6 +33,7 @@
             <enum name="dateHourMinute" value="1"/>
             <enum name="yearMonthDayHourMinute" value="2"/>
             <enum name="yearMonthDay" value="3"/>
+            <enum name="hourMinute" value="4"/>
         </attr>
         <attr name="minutesInterval" format="enum">
             <enum name="one" value="1"/>
