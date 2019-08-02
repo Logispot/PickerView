@@ -398,19 +398,19 @@ public class DateTimePickerView extends PickerViewGroup {
             String text = "";
             switch (field) {
                 case FIELD_YEAR:
-                    text = String.format(Locale.getDefault(), "%d年", value);
+                    text = String.format(Locale.getDefault(), "%d년", value);
                     break;
                 case FIELD_MONTH:
-                    text = String.format(Locale.getDefault(), "%02d月", value + 1);
+                    text = String.format(Locale.getDefault(), "%02d월", value + 1);
                     break;
                 case FIELD_DAY:
-                    text = String.format(Locale.getDefault(), "%02d日", value);
+                    text = String.format(Locale.getDefault(), "%02d일", value);
                     break;
                 case FIELD_HOUR:
-                    text = String.format(Locale.getDefault(), "%02d点", value);
+                    text = String.format(Locale.getDefault(), "%02d", value);
                     break;
                 case FIELD_MINUTE:
-                    text = String.format(Locale.getDefault(), "%02d分", value);
+                    text = String.format(Locale.getDefault(), "%02d", value);
                     break;
             }
             return text;
