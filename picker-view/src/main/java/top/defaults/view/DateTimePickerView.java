@@ -40,7 +40,7 @@ public class DateTimePickerView extends PickerViewGroup {
     public static final int TWENTY = 20;
     public static final int THIRTY = 30;
 
-    private int minutesInterval = FIVE;
+    private int minutesInterval = THIRTY;
 
     private static final int PRESERVE_FLAG_MONTH = 1;
     private static final int PRESERVE_FLAG_DAY = 1 << 1;
@@ -128,7 +128,7 @@ public class DateTimePickerView extends PickerViewGroup {
 
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.DateTimePickerView);
         type = typedArray.getInt(R.styleable.DateTimePickerView_type, TYPE_YEAR_MONTH_DAY);
-        minutesInterval = typedArray.getInt(R.styleable.DateTimePickerView_minutesInterval, FIVE);
+        minutesInterval = typedArray.getInt(R.styleable.DateTimePickerView_minutesInterval, THIRTY);
         typedArray.recycle();
 
         buildViews(context);
