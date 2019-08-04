@@ -179,9 +179,9 @@ public class DateTimePickerView extends PickerViewGroup {
                 monthPickerView = null;
                 dayPickerView = null;
                 datePickerView = null;
-                hourPickerView = new PickerView(context);
-                minutePickerView = new PickerView(context);
-                timePickerView = null;
+                hourPickerView = null;
+                minutePickerView = null;
+                timePickerView = new PickerView(context);
                 break;
             default:
                 yearPickerView = null;

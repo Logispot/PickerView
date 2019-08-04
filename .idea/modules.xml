@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/PickerView.iml" filepath="$PROJECT_DIR$/PickerView.iml" />
       <module fileurl="file://$PROJECT_DIR$/PickerViewApp.iml" filepath="$PROJECT_DIR$/PickerViewApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/picker-view/picker-view.iml" filepath="$PROJECT_DIR$/picker-view/picker-view.iml" />
       <module fileurl="file://$PROJECT_DIR$/picker-view/picker-view.iml" filepath="$PROJECT_DIR$/picker-view/picker-view.iml" />
     </modules>
   </component>
