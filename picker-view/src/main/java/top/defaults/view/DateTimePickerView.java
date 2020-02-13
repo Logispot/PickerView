@@ -18,6 +18,7 @@ public class DateTimePickerView extends PickerViewGroup {
     public static final int TYPE_YEAR_MONTH_DAY_HOUR_MINUTE = 2;
     public static final int TYPE_YEAR_MONTH_DAY = 3;
     public static final int TYPE_HOUR_MINUTE = 4;
+    public static final int TYPE_SPLIT_HOUR_MINUTE = 5;
 
     protected int type = TYPE_YEAR_MONTH_DAY;
 
@@ -182,6 +183,15 @@ public class DateTimePickerView extends PickerViewGroup {
                 hourPickerView = null;
                 minutePickerView = null;
                 timePickerView = new PickerView(context);
+                break;
+            case TYPE_SPLIT_HOUR_MINUTE:
+                yearPickerView = null;
+                monthPickerView = null;
+                dayPickerView = null;
+                datePickerView = null;
+                hourPickerView = new PickerView(context);
+                minutePickerView = new PickerView(context);
+                timePickerView = null;
                 break;
             default:
                 yearPickerView = null;
